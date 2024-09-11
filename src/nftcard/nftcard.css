@@ -41,6 +41,7 @@ main {
   background-color: hsla(178, 100%, 50%, 0.302);
   height: 100%;
   width: 100%;
+  border-radius: 5px;
   display: none;
 }
 
@@ -125,10 +126,18 @@ footer span {
   .container {
     max-width: 40%;
   }
+
+  .overlay {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 30%;
+  }
+
+  .overlay {
+    width: 80%;
   }
 }

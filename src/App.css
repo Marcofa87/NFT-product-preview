@@ -20,3 +20,10 @@ span {
 p {
   color: var(--primary-color-soft-blue);
 }
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    align-items: center;
+  }
+}

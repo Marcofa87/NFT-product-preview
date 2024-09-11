@@ -20,7 +20,7 @@ function NftCard() {
           <div className="card-container-value-date-box">
             <div className="card-container-value">
               <img src={iconEthereum} alt="Ethereum image icon" />{" "}
-              <p>0.041ETH</p>
+              <p>0.041 ETH</p>
             </div>
 
             <div className="card-container-time">

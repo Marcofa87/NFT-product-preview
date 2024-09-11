@@ -3,6 +3,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  box-sizing: border-box;
+  background-color: var(--main-background);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size);
 }

@@ -17,6 +17,11 @@ main {
   padding: 0.75rem;
 }
 
+.hover:hover {
+  color: var(--primary-color-cyan);
+  cursor: pointer;
+}
+
 .image-container {
   width: 100%;
   text-align: center;

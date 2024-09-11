@@ -15,7 +15,7 @@ function NftCard() {
           </picture>
         </div>
         <div className="card-container-description">
-          <h2>Equilibrium #3429</h2>
+          <h2 className="hover">Equilibrium #3429</h2>
           <p>Our Equilibrium collection promotes balance and calm</p>
           <div className="card-container-value-date-box">
             <div className="card-container-value">
@@ -32,7 +32,7 @@ function NftCard() {
         <footer>
           <img src={avatarIcon} alt="Avatar User Icon" />
           <p>
-            Creation of <span>Marco Falasca</span>
+            Creation of <span className="hover">Marco Falasca</span>
           </p>
         </footer>
       </div>

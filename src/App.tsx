@@ -1,9 +1,10 @@
 import "./App.css";
+import NftCard from "./nftcard/NftCard";
 
 function App() {
   return (
     <>
-      <h1>Hello React Nft!</h1>
+      <NftCard />
     </>
   );
 }
